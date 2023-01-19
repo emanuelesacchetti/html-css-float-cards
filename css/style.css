@@ -22,7 +22,6 @@ body{
     margin: 20px auto;
     color: rgb(168, 11, 103);
     text-align: center;
-    
 }
 
 .text{
@@ -39,6 +38,7 @@ body{
     float: left;
     padding: 5px;
     height: 150px;
+    margin: 10px 0px;
 
 }
 
@@ -62,13 +62,21 @@ body{
 .name {
     font-weight: bold;
     font-size: 20px;
+    margin: 10px 0px;
+}
+
+.job {
+    margin: 10px 0px;
 }
 
 .schedule_text a {
     text-decoration: none;
     color: aqua;
+    margin: 10px 0px;
 }
 
-.name, .job, .schedule_text a{
-    margin: 10px 0px;
+.clearfix {
+    display: table;
+    clear: both;
+    content: "";
 }
